@@ -4,7 +4,6 @@ import hello.hellospring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-@Controller
 public class MemberController {
 
     // 스프링 컨테이너에 등록해서 사용하기 - 하나만 등록
