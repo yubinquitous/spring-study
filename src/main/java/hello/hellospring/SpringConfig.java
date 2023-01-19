@@ -43,4 +43,9 @@ public class SpringConfig {
 ////        return new JdbcTemplateMemberRepository(dataSource);
 //        return new JpaMemberRepository(em);
 //    }
+
+//    @Bean // 스프링 빈으로 등록하는 경우 (SpringConfig)
+//    public TimeTraceAop timeTraceAop() {
+//        return new TimeTraceAop();
+//    }
 }
